@@ -20,12 +20,12 @@
   <p>{calculateAge(person.born, person.dead)} years</p>
   {#if selected}
     <div class="details" transition:fade>
-      <p>{person.name} {person.surname}</p>
-      <p>Born on {person.born}</p>
+      <h1>{person.name} {person.surname}</h1>
+      <h2>Born on {person.born}</h2>
       {#if person.dead}
-        <p>Died on {person.dead}</p>
+        <h3>Died on {person.dead}</h3>
       {/if}
-      <p>{person.description}</p>
+      <h4>{person.description}</h4>
     </div>
   {/if}
 </button>
