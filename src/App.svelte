@@ -88,7 +88,7 @@
 <div class="button__container">
   <input type="text" on:input={filteredName} placeholder="Filter by name" />
   <label>
-    <input type="range" min="0" max="100" on:input={filteredAge} />
+    <input type="range" min="0" max="100" value="100" on:input={filteredAge} />
     Filter by age
   </label>
   <label>
